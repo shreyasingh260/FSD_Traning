@@ -1,4 +1,4 @@
-//console.log("Hello Shruti")
+//console.log("Hello Shreya")
 
 //const sum=function sum(a,b){
    // return Math.sqrt(a)+Math.sqrt(b);
@@ -38,11 +38,11 @@ function login(error,messg){
     }
 }
 function loginHandler(username,pass,clbk){
-    if(username=="shruti1420" && pass=="12345"){
+    if(username=="shreya260" && pass=="12345"){
         clbk(null,"Login Success")
     }
     else{
         clbk("Username or password is incorrect",null)
     }
 }
-console.log(loginHandler("shruti1420",1234,login));
+console.log(loginHandler("shreya1420",1234,login));
